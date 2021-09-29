@@ -2,16 +2,20 @@
 
 ## Description
 
-Think you're a **cool cat**? Prove it by taking this **Garfield** knowledge quiz! But be carful, this test is **timed**! Use the **scoreboard** to share and compete against your friends!
-
-[CLICK THIS LINK TO TEST YOUR WIT IN GARFIELD'S PUZZLE CASTLE!](https://argibson02.github.io/Quiz-App/)
-
-**Demo of the quiz in action! (pretend you didn't see the answers)**
-
-![Demo of the quiz in action](https://github.com/argibson02/Quiz-App/blob/main/images/demo-garfield-quiz.gif?raw=true)
+Have you ever thought, “Gee wiz, I sure wish there was a way to track, plan, and schedule my daily activities. If only someone could invent something to do that.”? **FINALLY** the solution is here! With this Day Planner web application you can do exactly that!
+What to learn how to surf? **Plan it!**
+What to schedule a block of time to sulk because you found out you're afraid of the ocean? **Plan it!**
+What to figure out when you're available to sell your surfboard on eBay? **Plan it!**
 
 
-*(Homework project #4 for the UC Berkeley Full-Stack Developer Bootcamp)*
+[Click this link to PLAN IT!](https://argibson02.github.io/Day-Planner/)
+
+**Demo of the planner in action!**
+
+![Demo of the planner in action](https://github.com/argibson02/Quiz-App/blob/main/images/demo-planner.gif?raw=true)
+
+
+*(Homework project #5 for the UC Berkeley Full-Stack Developer Bootcamp)*
 
 ## Prerequisites
 Any modern internet browser will do!
@@ -21,6 +25,9 @@ Any modern internet browser will do!
 * [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
 * [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
 * [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+* [jQuery](https://api.jquery.com/)
+* [Bootstrap](https://getbootstrap.com/)
+
 
 ## Technologies Used
 
