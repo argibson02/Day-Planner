@@ -4,7 +4,7 @@
 
 Have you ever thought, “Gee wiz, I sure wish there was a way to track, plan, and schedule my daily activities. If only someone could invent something to do that.”? **FINALLY** the solution is here! With this Day Planner web application you can do exactly that!
  <br />
- 
+
 What to learn how to surf? **Plan it!**
  <br />
 
@@ -15,6 +15,7 @@ What to figure out when you're available to sell your surfboard on eBay? **Plan 
 
 
 [Click this link to PLAN IT!](https://argibson02.github.io/Day-Planner/)
+ <br />
 
 **Demo of the planner in action!**
 
