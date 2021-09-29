@@ -3,6 +3,7 @@
 ## Description
 
 Have you ever thought, “Gee wiz, I sure wish there was a way to track, plan, and schedule my daily activities. If only someone could invent something to do that.”? **FINALLY** the solution is here! With this Day Planner web application you can do exactly that!
+ <br />
 What to learn how to surf? **Plan it!**
 What to schedule a block of time to sulk because you found out you're afraid of the ocean? **Plan it!**
 What to figure out when you're available to sell your surfboard on eBay? **Plan it!**
