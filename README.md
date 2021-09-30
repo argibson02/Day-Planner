@@ -8,7 +8,7 @@ Have you ever thought, “Gee wiz, I sure wish there was a way to track, plan, a
 What to learn how to surf? **Plan it!**
  <br />
 
-What to schedule a block of time to sulk because you found out you're afraid of the ocean? **Plan it!**
+What to schedule a block of time to cry because you found out you're afraid of the ocean? **Plan it!**
  <br />
 
 What to figure out when you're available to sell your surfboard on eBay? **Plan it!**
