@@ -1,6 +1,6 @@
 ///Variables
 var timeNow = moment();
-var timeNowUser = moment().format("dddd, DD-MM-YYYY, kk:mm:ss ");
+var timeNowUser = moment().format("dddd, DD-MM-YYYY, kk:mm:ss");
 var notesArray = ["","","","","","","","","","","","","","","","","","","","","","","",""];
 var localCheck = ["","","","","","","","","","","","","","","","","","","","","","","",""];
 
@@ -11,6 +11,13 @@ console.log(timeNow);
 console.log(timeNowUser);
 
 
+///--------------------------------CLOCK
+let currentTimeClock = function () {
+    let currentTime = moment().format("dddd, DD-MM-YYYY, kk:mm:ss");
+    $("#currentTimeText").text(currentTime);
+}
+currentTimeClock();
+setInterval(currentTimeClock, 1000);
 
 
 //Needs:
@@ -78,7 +85,7 @@ console.log(timeNowUser);
 
 
 
-
+/*
 //----------------------------STORAGE
 //----------------------------------------------------Function for any stored notes
 function checkNotes() {
@@ -136,3 +143,4 @@ function clearScores (event) {
 
 //--------------------------------------------------Event Listeners
 submitButton.$(document).on(("click", saveNotes);
+*/
