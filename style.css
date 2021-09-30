@@ -5,8 +5,8 @@ body {
 }
 
 textarea{
-  /*background: transparent;*/
-  background: rgb(222, 222, 222);
+  background: transparent;
+  /*background: rgb(222, 222, 222);*/
   border: none;
   resize: none;
   color: #000000;
@@ -71,6 +71,11 @@ textarea{
 .saveBtn i:hover {
   font-size: 20px;
   transition: all .3s ease-in-out;
+}
+
+.saveBtn:active {
+  background-color: #06809b;
+  transition: .1s ease-in-out;
 }
 
 #currentTime {
