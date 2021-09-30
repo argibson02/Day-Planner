@@ -103,13 +103,10 @@ function checkNotes() {
     }
     else {
         localCheck = JSON.parse(localStorage.getItem("notesArray")); // if not null, make it var local check
-        //console.log(notesArray + "1");
     }
 
     if (localCheck !== localCheckVerify) { // if local storage is longer, we make it into the function array
-        //console.log(notesArray + "2");
         notesArray = localCheck;
-        //console.log(notesArray + "3");
         text00.value = notesArray[00];
         text01.value = notesArray[01];
         text02.value = notesArray[02];
@@ -141,319 +138,194 @@ checkNotes(); //---runs immediately upon loading the page
 ///---------------storing notes functions
 function storeNotes00(event) {
     event.preventDefault();
-    //console.log("1")
-    if (text00.value === "") {
-        //console.log("2")
-        return; // prevents null additions to the scoresArray
-    } 
-    else {
-        //console.log("3")
-        var notesHandOff = text00.value;  
-        //console.log(notesHandOff)
-        notesArray[0] = notesHandOff;
-        localStorage.setItem("notesArray", JSON.stringify(notesArray));  // syncing javascript array and local storage, add to local storage
-        }
-        notesArray = JSON.parse(localStorage.getItem("notesArray")); //Array is stored as string in local storage. Grabbing it as an array and re-syncing the javascript array with local
-        //console.log(notesArray);
+    var notesHandOff = text00.value;
+    notesArray[0] = notesHandOff;
+    localStorage.setItem("notesArray", JSON.stringify(notesArray));  // syncing javascript array and local storage, add to local storage
+    notesArray = JSON.parse(localStorage.getItem("notesArray")); //Array is stored as string in local storage. Grabbing it as an array and re-syncing the javascript array with local
 }
 
 function storeNotes01(event) {
     event.preventDefault();
-    if (text01.value === "") {
-        return; // prevents null additions to the scoresArray
-    } 
-    else {
-        var notesHandOff = text01.value;  
-        notesArray[1] = notesHandOff;
-        localStorage.setItem("notesArray", JSON.stringify(notesArray));  // syncing javascript array and local storage, add to local storage
-        }
-        notesArray = JSON.parse(localStorage.getItem("notesArray")); //Array is stored as string in local storage. Grabbing it as an array and re-syncing the javascript array with local;
+    var notesHandOff = text01.value;
+    notesArray[1] = notesHandOff;
+    localStorage.setItem("notesArray", JSON.stringify(notesArray));  // syncing javascript array and local storage, add to local storage
+    notesArray = JSON.parse(localStorage.getItem("notesArray")); //Array is stored as string in local storage. Grabbing it as an array and re-syncing the javascript array with local;
 }
 
 function storeNotes02(event) {
     event.preventDefault();
-    if (text02.value === "") {
-        return; // prevents null additions to the scoresArray
-    } 
-    else {
-        var notesHandOff = text02.value;  
-        notesArray[2] = notesHandOff;
-        localStorage.setItem("notesArray", JSON.stringify(notesArray));  // syncing javascript array and local storage, add to local storage
-        }
-        notesArray = JSON.parse(localStorage.getItem("notesArray")); //Array is stored as string in local storage. Grabbing it as an array and re-syncing the javascript array with local;
+    var notesHandOff = text02.value;
+    notesArray[2] = notesHandOff;
+    localStorage.setItem("notesArray", JSON.stringify(notesArray));  // syncing javascript array and local storage, add to local storage
+    notesArray = JSON.parse(localStorage.getItem("notesArray")); //Array is stored as string in local storage. Grabbing it as an array and re-syncing the javascript array with local;
 }
 
 function storeNotes03(event) {
     event.preventDefault();
-    if (text03.value === "") {
-        return; // prevents null additions to the scoresArray
-    } 
-    else {
-        var notesHandOff = text03.value;  
-        notesArray[3] = notesHandOff;
-        localStorage.setItem("notesArray", JSON.stringify(notesArray));  // syncing javascript array and local storage, add to local storage
-        }
-        notesArray = JSON.parse(localStorage.getItem("notesArray")); //Array is stored as string in local storage. Grabbing it as an array and re-syncing the javascript array with local;
+    var notesHandOff = text03.value;
+    notesArray[3] = notesHandOff;
+    localStorage.setItem("notesArray", JSON.stringify(notesArray));  // syncing javascript array and local storage, add to local storage
+    notesArray = JSON.parse(localStorage.getItem("notesArray")); //Array is stored as string in local storage. Grabbing it as an array and re-syncing the javascript array with local;
 }
 
 function storeNotes04(event) {
     event.preventDefault();
-    if (text04.value === "") {
-        return; // prevents null additions to the scoresArray
-    } 
-    else {
-        var notesHandOff = text04.value;  
-        notesArray[4] = notesHandOff;
-        localStorage.setItem("notesArray", JSON.stringify(notesArray));  // syncing javascript array and local storage, add to local storage
-        }
-        notesArray = JSON.parse(localStorage.getItem("notesArray")); //Array is stored as string in local storage. Grabbing it as an array and re-syncing the javascript array with local;
+    var notesHandOff = text04.value;
+    notesArray[4] = notesHandOff;
+    localStorage.setItem("notesArray", JSON.stringify(notesArray));  // syncing javascript array and local storage, add to local storage
+    notesArray = JSON.parse(localStorage.getItem("notesArray")); //Array is stored as string in local storage. Grabbing it as an array and re-syncing the javascript array with local;
 }
 
 function storeNotes05(event) {
     event.preventDefault();
-    if (text05.value === "") {
-        return; // prevents null additions to the scoresArray
-    } 
-    else {
-        var notesHandOff = text05.value;  
-        notesArray[5] = notesHandOff;
-        localStorage.setItem("notesArray", JSON.stringify(notesArray));  // syncing javascript array and local storage, add to local storage
-        }
-        notesArray = JSON.parse(localStorage.getItem("notesArray")); //Array is stored as string in local storage. Grabbing it as an array and re-syncing the javascript array with local;
+    var notesHandOff = text05.value;
+    notesArray[5] = notesHandOff;
+    localStorage.setItem("notesArray", JSON.stringify(notesArray));  // syncing javascript array and local storage, add to local storage
+    notesArray = JSON.parse(localStorage.getItem("notesArray")); //Array is stored as string in local storage. Grabbing it as an array and re-syncing the javascript array with local;
 }
 
 function storeNotes06(event) {
     event.preventDefault();
-    if (text06.value === "") {
-        return; // prevents null additions to the scoresArray
-    } 
-    else {
-        var notesHandOff = text06.value;  
-        notesArray[6] = notesHandOff;
-        localStorage.setItem("notesArray", JSON.stringify(notesArray));  // syncing javascript array and local storage, add to local storage
-        }
-        notesArray = JSON.parse(localStorage.getItem("notesArray")); //Array is stored as string in local storage. Grabbing it as an array and re-syncing the javascript array with local;
+    var notesHandOff = text06.value;
+    notesArray[6] = notesHandOff;
+    localStorage.setItem("notesArray", JSON.stringify(notesArray));  // syncing javascript array and local storage, add to local storage
+    notesArray = JSON.parse(localStorage.getItem("notesArray")); //Array is stored as string in local storage. Grabbing it as an array and re-syncing the javascript array with local;
 }
 
 function storeNotes07(event) {
     event.preventDefault();
-    if (text07.value === "") {
-        return; // prevents null additions to the scoresArray
-    } 
-    else {
-        var notesHandOff = text07.value;  
-        notesArray[7] = notesHandOff;
-        localStorage.setItem("notesArray", JSON.stringify(notesArray));  // syncing javascript array and local storage, add to local storage
-        }
-        notesArray = JSON.parse(localStorage.getItem("notesArray")); //Array is stored as string in local storage. Grabbing it as an array and re-syncing the javascript array with local;
+    var notesHandOff = text07.value;
+    notesArray[7] = notesHandOff;
+    localStorage.setItem("notesArray", JSON.stringify(notesArray));  // syncing javascript array and local storage, add to local storage
+    notesArray = JSON.parse(localStorage.getItem("notesArray")); //Array is stored as string in local storage. Grabbing it as an array and re-syncing the javascript array with local;
 }
 
 function storeNotes08(event) {
     event.preventDefault();
-    if (text08.value === "") {
-        return; // prevents null additions to the scoresArray
-    } 
-    else {
-        var notesHandOff = text08.value;  
-        notesArray[8] = notesHandOff;
-        localStorage.setItem("notesArray", JSON.stringify(notesArray));  // syncing javascript array and local storage, add to local storage
-        }
-        notesArray = JSON.parse(localStorage.getItem("notesArray")); //Array is stored as string in local storage. Grabbing it as an array and re-syncing the javascript array with local;
+    var notesHandOff = text08.value;
+    notesArray[8] = notesHandOff;
+    localStorage.setItem("notesArray", JSON.stringify(notesArray));  // syncing javascript array and local storage, add to local storage
+    notesArray = JSON.parse(localStorage.getItem("notesArray")); //Array is stored as string in local storage. Grabbing it as an array and re-syncing the javascript array with local;
 }
 
 function storeNotes09(event) {
     event.preventDefault();
-    if (text09.value === "") {
-        return; // prevents null additions to the scoresArray
-    } 
-    else {
-        var notesHandOff = text09.value;  
-        notesArray[9] = notesHandOff;
-        localStorage.setItem("notesArray", JSON.stringify(notesArray));  // syncing javascript array and local storage, add to local storage
-        }
-        notesArray = JSON.parse(localStorage.getItem("notesArray")); //Array is stored as string in local storage. Grabbing it as an array and re-syncing the javascript array with local;
+    var notesHandOff = text09.value;
+    notesArray[9] = notesHandOff;
+    localStorage.setItem("notesArray", JSON.stringify(notesArray));  // syncing javascript array and local storage, add to local storage
+    notesArray = JSON.parse(localStorage.getItem("notesArray")); //Array is stored as string in local storage. Grabbing it as an array and re-syncing the javascript array with local;
 }
 
 function storeNotes10(event) {
     event.preventDefault();
-    if (text10.value === "") {
-        return; // prevents null additions to the scoresArray
-    } 
-    else {
-        var notesHandOff = text10.value;  
-        notesArray[10] = notesHandOff;
-        localStorage.setItem("notesArray", JSON.stringify(notesArray));  // syncing javascript array and local storage, add to local storage
-        }
-        notesArray = JSON.parse(localStorage.getItem("notesArray")); //Array is stored as string in local storage. Grabbing it as an array and re-syncing the javascript array with local;
+    var notesHandOff = text10.value;
+    notesArray[10] = notesHandOff;
+    localStorage.setItem("notesArray", JSON.stringify(notesArray));  // syncing javascript array and local storage, add to local storage
+    notesArray = JSON.parse(localStorage.getItem("notesArray")); //Array is stored as string in local storage. Grabbing it as an array and re-syncing the javascript array with local;
 }
 
 function storeNotes11(event) {
     event.preventDefault();
-    if (text11.value === "") {
-        return; // prevents null additions to the scoresArray
-    } 
-    else {
-        var notesHandOff = text11.value;  
-        notesArray[11] = notesHandOff;
-        localStorage.setItem("notesArray", JSON.stringify(notesArray));  // syncing javascript array and local storage, add to local storage
-        }
-        notesArray = JSON.parse(localStorage.getItem("notesArray")); //Array is stored as string in local storage. Grabbing it as an array and re-syncing the javascript array with local;
+    var notesHandOff = text11.value;
+    notesArray[11] = notesHandOff;
+    localStorage.setItem("notesArray", JSON.stringify(notesArray));  // syncing javascript array and local storage, add to local storage
+    notesArray = JSON.parse(localStorage.getItem("notesArray")); //Array is stored as string in local storage. Grabbing it as an array and re-syncing the javascript array with local;
 }
 
 function storeNotes12(event) {
     event.preventDefault();
-    if (text12.value === "") {
-        return; // prevents null additions to the scoresArray
-    } 
-    else {
-        var notesHandOff = text12.value;  
-        notesArray[12] = notesHandOff;
-        localStorage.setItem("notesArray", JSON.stringify(notesArray));  // syncing javascript array and local storage, add to local storage
-        }
-        notesArray = JSON.parse(localStorage.getItem("notesArray")); //Array is stored as string in local storage. Grabbing it as an array and re-syncing the javascript array with local;
+    var notesHandOff = text12.value;
+    notesArray[12] = notesHandOff;
+    localStorage.setItem("notesArray", JSON.stringify(notesArray));  // syncing javascript array and local storage, add to local storage
+    notesArray = JSON.parse(localStorage.getItem("notesArray")); //Array is stored as string in local storage. Grabbing it as an array and re-syncing the javascript array with local;
 }
 
 function storeNotes13(event) {
     event.preventDefault();
-    if (text13.value === "") {
-        return; // prevents null additions to the scoresArray
-    } 
-    else {
-        var notesHandOff = text13.value;  
-        notesArray[13] = notesHandOff;
-        localStorage.setItem("notesArray", JSON.stringify(notesArray));  // syncing javascript array and local storage, add to local storage
-        }
-        notesArray = JSON.parse(localStorage.getItem("notesArray")); //Array is stored as string in local storage. Grabbing it as an array and re-syncing the javascript array with local;
+    var notesHandOff = text13.value;
+    notesArray[13] = notesHandOff;
+    localStorage.setItem("notesArray", JSON.stringify(notesArray));  // syncing javascript array and local storage, add to local storage
+    notesArray = JSON.parse(localStorage.getItem("notesArray")); //Array is stored as string in local storage. Grabbing it as an array and re-syncing the javascript array with local;
 }
 
 function storeNotes14(event) {
     event.preventDefault();
-    if (text14.value === "") {
-        return; // prevents null additions to the scoresArray
-    } 
-    else {
-        var notesHandOff = text14.value;  
-        notesArray[14] = notesHandOff;
-        localStorage.setItem("notesArray", JSON.stringify(notesArray));  // syncing javascript array and local storage, add to local storage
-        }
-        notesArray = JSON.parse(localStorage.getItem("notesArray")); //Array is stored as string in local storage. Grabbing it as an array and re-syncing the javascript array with local;
+    var notesHandOff = text14.value;
+    notesArray[14] = notesHandOff;
+    localStorage.setItem("notesArray", JSON.stringify(notesArray));  // syncing javascript array and local storage, add to local storage
+    notesArray = JSON.parse(localStorage.getItem("notesArray")); //Array is stored as string in local storage. Grabbing it as an array and re-syncing the javascript array with local;
 }
 
 function storeNotes15(event) {
     event.preventDefault();
-    if (text15.value === "") {
-        return; // prevents null additions to the scoresArray
-    } 
-    else {
-        var notesHandOff = text15.value;  
-        notesArray[15] = notesHandOff;
-        localStorage.setItem("notesArray", JSON.stringify(notesArray));  // syncing javascript array and local storage, add to local storage
-        }
-        notesArray = JSON.parse(localStorage.getItem("notesArray")); //Array is stored as string in local storage. Grabbing it as an array and re-syncing the javascript array with local;
+    var notesHandOff = text15.value;
+    notesArray[15] = notesHandOff;
+    localStorage.setItem("notesArray", JSON.stringify(notesArray));  // syncing javascript array and local storage, add to local storage
+    notesArray = JSON.parse(localStorage.getItem("notesArray")); //Array is stored as string in local storage. Grabbing it as an array and re-syncing the javascript array with local;
 }
 
 function storeNotes16(event) {
     event.preventDefault();
-    if (text16.value === "") {
-        return; // prevents null additions to the scoresArray
-    } 
-    else {
-        var notesHandOff = text16.value;  
-        notesArray[16] = notesHandOff;
-        localStorage.setItem("notesArray", JSON.stringify(notesArray));  // syncing javascript array and local storage, add to local storage
-        }
-        notesArray = JSON.parse(localStorage.getItem("notesArray")); //Array is stored as string in local storage. Grabbing it as an array and re-syncing the javascript array with local;
+    var notesHandOff = text16.value;
+    notesArray[16] = notesHandOff;
+    localStorage.setItem("notesArray", JSON.stringify(notesArray));  // syncing javascript array and local storage, add to local storage
+    notesArray = JSON.parse(localStorage.getItem("notesArray")); //Array is stored as string in local storage. Grabbing it as an array and re-syncing the javascript array with local;
 }
 
 function storeNotes17(event) {
     event.preventDefault();
-    if (text17.value === "") {
-        return; // prevents null additions to the scoresArray
-    } 
-    else {
-        var notesHandOff = text17.value;  
-        notesArray[17] = notesHandOff;
-        localStorage.setItem("notesArray", JSON.stringify(notesArray));  // syncing javascript array and local storage, add to local storage
-        }
-        notesArray = JSON.parse(localStorage.getItem("notesArray")); //Array is stored as string in local storage. Grabbing it as an array and re-syncing the javascript array with local;
+    var notesHandOff = text17.value;
+    notesArray[17] = notesHandOff;
+    localStorage.setItem("notesArray", JSON.stringify(notesArray));  // syncing javascript array and local storage, add to local storage
+    notesArray = JSON.parse(localStorage.getItem("notesArray")); //Array is stored as string in local storage. Grabbing it as an array and re-syncing the javascript array with local;
 }
 
 function storeNotes18(event) {
     event.preventDefault();
-    if (text18.value === "") {
-        return; // prevents null additions to the scoresArray
-    } 
-    else {
-        var notesHandOff = text18.value;  
-        notesArray[18] = notesHandOff;
-        localStorage.setItem("notesArray", JSON.stringify(notesArray));  // syncing javascript array and local storage, add to local storage
-        }
-        notesArray = JSON.parse(localStorage.getItem("notesArray")); //Array is stored as string in local storage. Grabbing it as an array and re-syncing the javascript array with local;
+    var notesHandOff = text18.value;
+    notesArray[18] = notesHandOff;
+    localStorage.setItem("notesArray", JSON.stringify(notesArray));  // syncing javascript array and local storage, add to local storage
+    notesArray = JSON.parse(localStorage.getItem("notesArray")); //Array is stored as string in local storage. Grabbing it as an array and re-syncing the javascript array with local;
 }
 
 function storeNotes19(event) {
     event.preventDefault();
-    if (text19.value === "") {
-        return; // prevents null additions to the scoresArray
-    } 
-    else {
-        var notesHandOff = text19.value;  
-        notesArray[19] = notesHandOff;
-        localStorage.setItem("notesArray", JSON.stringify(notesArray));  // syncing javascript array and local storage, add to local storage
-        }
-        notesArray = JSON.parse(localStorage.getItem("notesArray")); //Array is stored as string in local storage. Grabbing it as an array and re-syncing the javascript array with local;
+    var notesHandOff = text19.value;
+    notesArray[19] = notesHandOff;
+    localStorage.setItem("notesArray", JSON.stringify(notesArray));  // syncing javascript array and local storage, add to local storage
+    notesArray = JSON.parse(localStorage.getItem("notesArray")); //Array is stored as string in local storage. Grabbing it as an array and re-syncing the javascript array with local;
 }
 
 function storeNotes20(event) {
     event.preventDefault();
-    if (text20.value === "") {
-        return; // prevents null additions to the scoresArray
-    } 
-    else {
-        var notesHandOff = text20.value;  
-        notesArray[20] = notesHandOff;
-        localStorage.setItem("notesArray", JSON.stringify(notesArray));  // syncing javascript array and local storage, add to local storage
-        }
-        notesArray = JSON.parse(localStorage.getItem("notesArray")); //Array is stored as string in local storage. Grabbing it as an array and re-syncing the javascript array with local;
+    var notesHandOff = text20.value;
+    notesArray[20] = notesHandOff;
+    localStorage.setItem("notesArray", JSON.stringify(notesArray));  // syncing javascript array and local storage, add to local storage
+    notesArray = JSON.parse(localStorage.getItem("notesArray")); //Array is stored as string in local storage. Grabbing it as an array and re-syncing the javascript array with local;
 }
 
 function storeNotes21(event) {
     event.preventDefault();
-    if (text21.value === "") {
-        return; // prevents null additions to the scoresArray
-    } 
-    else {
-        var notesHandOff = text21.value;  
-        notesArray[21] = notesHandOff;
-        localStorage.setItem("notesArray", JSON.stringify(notesArray));  // syncing javascript array and local storage, add to local storage
-        }
-        notesArray = JSON.parse(localStorage.getItem("notesArray")); //Array is stored as string in local storage. Grabbing it as an array and re-syncing the javascript array with local;
+    var notesHandOff = text21.value;
+    notesArray[21] = notesHandOff;
+    localStorage.setItem("notesArray", JSON.stringify(notesArray));  // syncing javascript array and local storage, add to local storage
+    notesArray = JSON.parse(localStorage.getItem("notesArray")); //Array is stored as string in local storage. Grabbing it as an array and re-syncing the javascript array with local;
 }
 
 function storeNotes22(event) {
     event.preventDefault();
-    if (text22.value === "") {
-        return; // prevents null additions to the scoresArray
-    } 
-    else {
-        var notesHandOff = text22.value;  
-        notesArray[22] = notesHandOff;
-        localStorage.setItem("notesArray", JSON.stringify(notesArray));  // syncing javascript array and local storage, add to local storage
-        }
-        notesArray = JSON.parse(localStorage.getItem("notesArray")); //Array is stored as string in local storage. Grabbing it as an array and re-syncing the javascript array with local;
+    var notesHandOff = text22.value;
+    notesArray[22] = notesHandOff;
+    localStorage.setItem("notesArray", JSON.stringify(notesArray));  // syncing javascript array and local storage, add to local storage
+    notesArray = JSON.parse(localStorage.getItem("notesArray")); //Array is stored as string in local storage. Grabbing it as an array and re-syncing the javascript array with local;
 }
 
 function storeNotes23(event) {
     event.preventDefault();
-    if (text23.value === "") {
-        return; // prevents null additions to the scoresArray
-    } 
-    else {
-        var notesHandOff = text23.value;  
-        notesArray[23] = notesHandOff;
-        localStorage.setItem("notesArray", JSON.stringify(notesArray));  // syncing javascript array and local storage, add to local storage
-        }
-        notesArray = JSON.parse(localStorage.getItem("notesArray")); //Array is stored as string in local storage. Grabbing it as an array and re-syncing the javascript array with local;
+    var notesHandOff = text23.value;
+    notesArray[23] = notesHandOff;
+    localStorage.setItem("notesArray", JSON.stringify(notesArray));  // syncing javascript array and local storage, add to local storage
+    notesArray = JSON.parse(localStorage.getItem("notesArray")); //Array is stored as string in local storage. Grabbing it as an array and re-syncing the javascript array with local;
 }
 
 ///-----------------------------------Clear notes function 
