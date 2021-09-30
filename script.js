@@ -32,6 +32,32 @@ var text21 = document.getElementById("text21");
 var text22 = document.getElementById("text22");
 var text23 = document.getElementById("text23");
 
+// color box variables 
+var text00Hour = 0; 
+var text01Hour = 1;
+var text02Hour = 2;
+var text03Hour = 3;
+var text04Hour = 4;
+var text05Hour = 5;
+var text06Hour = 6;
+var text07Hour = 7;
+var text08Hour = 8;
+var text09Hour = 9;
+var text10Hour = 10;
+var text11Hour = 11;
+var text12Hour = 12;
+var text13Hour = 13;
+var text14Hour = 14;
+var text15Hour = 15;
+var text16Hour = 16;
+var text17Hour = 17;
+var text18Hour = 18;
+var text19Hour = 19;
+var text20Hour = 20;
+var text21Hour = 21;
+var text22Hour = 22;
+var text23Hour = 23;
+
 //button variables
 var btn00 = document.querySelector("#btn00");
 var btn01 = document.querySelector("#btn01");
@@ -87,10 +113,300 @@ function colorSwap() {
 colorSwap();
 */
 
-function colorSwap2() {
+function colorSwap() {
+    let todayHours = moment().hour();
 
+    function compareTime00() {
+        if (todayHours > text00Hour) {
+            text00.setAttribute("class", "past col-8 input-field description");
+        }
+        else if (todayHours < text00Hour) {
+            text00.setAttribute("class", "future col-8 input-field description");
+        }
+        else {
+            text00.setAttribute("class", "present col-8 input-field description");
+        }
+    }
+    function compareTime01() {
+        if (todayHours > text01Hour) {
+            text01.setAttribute("class", "past col-8 input-field description");
+        }
+        else if (todayHours < text01Hour) {
+            text01.setAttribute("class", "future col-8 input-field description");
+        }
+        else {
+            text01.setAttribute("class", "present col-8 input-field description");
+        }
+    }
+    function compareTime02() {
+        if (todayHours > text02Hour) {
+            text02.setAttribute("class", "past col-8 input-field description");
+        }
+        else if (todayHours < text02Hour) {
+            text02.setAttribute("class", "future col-8 input-field description");
+        }
+        else {
+            text02.setAttribute("class", "present col-8 input-field description");
+        }
+    }
+    function compareTime03() {
+        if (todayHours > text03Hour) {
+            text03.setAttribute("class", "past col-8 input-field description");
+        }
+        else if (todayHours < text03Hour) {
+            text03.setAttribute("class", "future col-8 input-field description");
+        }
+        else {
+            text03.setAttribute("class", "present col-8 input-field description");
+        }
+    }
+    function compareTime04() {
+        if (todayHours > text04Hour) {
+            text04.setAttribute("class", "past col-8 input-field description");
+        }
+        else if (todayHours < text04Hour) {
+            text04.setAttribute("class", "future col-8 input-field description");
+        }
+        else {
+            text04.setAttribute("class", "present col-8 input-field description");
+        }
+    }
+    function compareTime05() {
+        if (todayHours > text05Hour) {
+            text05.setAttribute("class", "past col-8 input-field description");
+        }
+        else if (todayHours < text05Hour) {
+            text05.setAttribute("class", "future col-8 input-field description");
+        }
+        else {
+            text05.setAttribute("class", "present col-8 input-field description");
+        }
+    }
+    function compareTime06() {
+        if (todayHours > text06Hour) {
+            text06.setAttribute("class", "past col-8 input-field description");
+        }
+        else if (todayHours < text06Hour) {
+            text06.setAttribute("class", "future col-8 input-field description");
+        }
+        else {
+            text06.setAttribute("class", "present col-8 input-field description");
+        }
+    }
+    function compareTime07() {
+        if (todayHours > text07Hour) {
+            text07.setAttribute("class", "past col-8 input-field description");
+        }
+        else if (todayHours < text07Hour) {
+            text07.setAttribute("class", "future col-8 input-field description");
+        }
+        else {
+            text07.setAttribute("class", "present col-8 input-field description");
+        }
+    }
+    function compareTime08() { // keep
+        if (todayHours > text08Hour) {
+            text08.setAttribute("class", "past col-8 input-field description");
+        }
+        else if (todayHours < text08Hour) {
+            text08.setAttribute("class", "future col-8 input-field description");
+        }
+        else {
+            text08.setAttribute("class", "present col-8 input-field description");
+        }
+    }
+    function compareTime09() {
+        if (todayHours > text09Hour) {
+            text09.setAttribute("class", "past col-8 input-field description");
+        }
+        else if (todayHours < text09Hour) {
+            text09.setAttribute("class", "future col-8 input-field description");
+        }
+        else {
+            text09.setAttribute("class", "present col-8 input-field description");
+        }
+    }
+    function compareTime10() {
+        if (todayHours > text10Hour) {
+            text10.setAttribute("class", "past col-8 input-field description");
+        }
+        else if (todayHours < text10Hour) {
+            text10.setAttribute("class", "future col-8 input-field description");
+        }
+        else {
+            text10.setAttribute("class", "present col-8 input-field description");
+        }
+    }
+    function compareTime11() {
+        if (todayHours > text11Hour) {
+            text11.setAttribute("class", "past col-8 input-field description");
+        }
+        else if (todayHours < text11Hour) {
+            text11.setAttribute("class", "future col-8 input-field description");
+        }
+        else {
+            text11.setAttribute("class", "present col-8 input-field description");
+        }
+    }
+    function compareTime12() {
+        if (todayHours > text12Hour) {
+            text12.setAttribute("class", "past col-8 input-field description");
+        }
+        else if (todayHours < text12Hour) {
+            text12.setAttribute("class", "future col-8 input-field description");
+        }
+        else {
+            text12.setAttribute("class", "present col-8 input-field description");
+        }
+    }
+    function compareTime13() {
+        if (todayHours > text13Hour) {
+            text13.setAttribute("class", "past col-8 input-field description");
+        }
+        else if (todayHours < text13Hour) {
+            text13.setAttribute("class", "future col-8 input-field description");
+        }
+        else {
+            text13.setAttribute("class", "present col-8 input-field description");
+        }
+    }
+    function compareTime14() {
+        if (todayHours > text14Hour) {
+            text14.setAttribute("class", "past col-8 input-field description");
+        }
+        else if (todayHours < text14Hour) {
+            text14.setAttribute("class", "future col-8 input-field description");
+        }
+        else {
+            text14.setAttribute("class", "present col-8 input-field description");
+        }
+    }
+    function compareTime15() {
+        if (todayHours > text15Hour) {
+            text15.setAttribute("class", "past col-8 input-field description");
+        }
+        else if (todayHours < text15Hour) {
+            text15.setAttribute("class", "future col-8 input-field description");
+        }
+        else {
+            text15.setAttribute("class", "present col-8 input-field description");
+        }
+    }
+    function compareTime16() {
+        if (todayHours > text16Hour) {
+            text16.setAttribute("class", "past col-8 input-field description");
+        }
+        else if (todayHours < text16Hour) {
+            text16.setAttribute("class", "future col-8 input-field description");
+        }
+        else {
+            text16.setAttribute("class", "present col-8 input-field description");
+        }
+    }
+    function compareTime17() {
+        if (todayHours > text17Hour) {
+            text17.setAttribute("class", "past col-8 input-field description");
+        }
+        else if (todayHours < text17Hour) {
+            text17.setAttribute("class", "future col-8 input-field description");
+        }
+        else {
+            text17.setAttribute("class", "present col-8 input-field description");
+        }
+    }
+    function compareTime18() {
+        if (todayHours > text18Hour) {
+            text18.setAttribute("class", "past col-8 input-field description");
+        }
+        else if (todayHours < text18Hour) {
+            text18.setAttribute("class", "future col-8 input-field description");
+        }
+        else {
+            text18.setAttribute("class", "present col-8 input-field description");
+        }
+    }
+    function compareTime19() {
+        if (todayHours > text19Hour) {
+            text19.setAttribute("class", "past col-8 input-field description");
+        }
+        else if (todayHours < text19Hour) {
+            text19.setAttribute("class", "future col-8 input-field description");
+        }
+        else {
+            text19.setAttribute("class", "present col-8 input-field description");
+        }
+    }
+    function compareTime20() {
+        if (todayHours > text20Hour) {
+            text20.setAttribute("class", "past col-8 input-field description");
+        }
+        else if (todayHours < text20Hour) {
+            text20.setAttribute("class", "future col-8 input-field description");
+        }
+        else {
+            text20.setAttribute("class", "present col-8 input-field description");
+        }
+    }
+    function compareTime21() {
+        if (todayHours > text21Hour) {
+            text21.setAttribute("class", "past col-8 input-field description");
+        }
+        else if (todayHours < text21Hour) {
+            text21.setAttribute("class", "future col-8 input-field description");
+        }
+        else {
+            text21.setAttribute("class", "present col-8 input-field description");
+        }
+    }
+    function compareTime22() {
+        if (todayHours > text22Hour) {
+            text22.setAttribute("class", "past col-8 input-field description");
+        }
+        else if (todayHours < text22Hour) {
+            text22.setAttribute("class", "future col-8 input-field description");
+        }
+        else {
+            text22.setAttribute("class", "present col-8 input-field description");
+        }
+    }
+    function compareTime23() {
+        if (todayHours > text23Hour) {
+            text23.setAttribute("class", "past col-8 input-field description");
+        }
+        else if (todayHours < text23Hour) {
+            text23.setAttribute("class", "future col-8 input-field description");
+        }
+        else {
+            text23.setAttribute("class", "present col-8 input-field description");
+        }
+    }
+
+    compareTime00();
+    compareTime01();
+    compareTime02();
+    compareTime03();
+    compareTime04();
+    compareTime05();
+    compareTime06();
+    compareTime07();
+    compareTime08();
+    compareTime09();
+    compareTime10();
+    compareTime11();
+    compareTime12();
+    compareTime13();
+    compareTime14();
+    compareTime15();
+    compareTime16();
+    compareTime17();
+    compareTime18();
+    compareTime19();
+    compareTime20();
+    compareTime21();
+    compareTime22();
+    compareTime23();
 }
-
+colorSwap();
 
 
 
