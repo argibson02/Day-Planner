@@ -22,7 +22,7 @@ What to figure out when you're available to sell your surfboard on eBay? **Plan 
 ![Demo of the planner in action](https://github.com/argibson02/Quiz-App/blob/main/images/demo-planner.gif?raw=true)
 
 
-*(Homework project #5 for the UC Berkeley Full-Stack Developer Bootcamp)*
+
 
 ## Prerequisites
 Any modern internet browser will do!
