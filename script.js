@@ -295,7 +295,7 @@ function checkNotes() {
     else {
         localCheck = JSON.parse(localStorage.getItem("notesArray")); // if not null, make it var local check.
     }
-    
+
     if (localCheck !== localCheckVerify) { // if local storage is not empty, we sync our javascript session array to local one.
         notesArray = localCheck;
         $("#text00").val(notesArray[0]);
@@ -511,3 +511,7 @@ $("#btn00").on("click", storeNotes00);
 
 //------------------------------- Clear button
 $('#clearButton').click(clearNotes);
+
+
+
+//to-do: swap out repetitive sections with loops 
