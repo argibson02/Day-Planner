@@ -19,7 +19,7 @@ What to figure out when you're available to sell your surfboard on eBay? **Plan 
 
 **Demo of the planner in action!**
 
-![Demo of the planner in action](https://github.com/argibson02/Quiz-App/blob/main/images/demo-planner.gif?raw=true)
+![Demo of the planner in action](https://github.com/argibson02/Day-Planner/blob/main/images/demo-planner.gif?raw=true)
 
 
 
