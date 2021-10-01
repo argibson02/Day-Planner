@@ -1,4 +1,4 @@
-# Title!
+# Day Planner
 
 ## Description
 
@@ -53,7 +53,7 @@ Any modern internet browser will do!
 
 ## Deployed Link
 
-* [See the Live Site!](https://argibson02.github.io/Quiz-App/)
+* [See the Live Site!](https://argibson02.github.io/Day-Planner/)
 
 ## Authors
 
@@ -67,5 +67,3 @@ Any modern internet browser will do!
 
 - Thanks to Jerome, Manuel, Cheng, and Daniel for instructing the UCB Coding Bootcamp.
 - Thanks to Eric Meyer for the [CSS reset file](https://meyerweb.com/eric/tools/css/reset/).
-
-
